@@ -1,0 +1,260 @@
+# Reading pref.tcl
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 win64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do t1_riscv_cpu_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Altera Starter FPGA Edition-64 vmap 2025.2 Lib Mapping Utility 2025.05 May 31 2025
+# vmap work rtl_work 
+# ** Note: (vmap-220) 'c:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
+# Copying c:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog  -work work +incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code {C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/t1_riscv_cpu.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 15:15:39 on Sep 25,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code" C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/t1_riscv_cpu.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module t1_riscv_cpu
+# 
+# Top level modules:
+# 	t1_riscv_cpu
+# End time: 15:15:39 on Sep 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code {C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/riscv_cpu.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 15:15:40 on Sep 25,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code" C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/riscv_cpu.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module riscv_cpu
+# 
+# Top level modules:
+# 	riscv_cpu
+# End time: 15:15:40 on Sep 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code {C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/data_mem.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 15:15:40 on Sep 25,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code" C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/data_mem.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module data_mem
+# 
+# Top level modules:
+# 	data_mem
+# End time: 15:15:40 on Sep 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components {C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/reset_ff.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 15:15:40 on Sep 25,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components" C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/reset_ff.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module reset_ff
+# 
+# Top level modules:
+# 	reset_ff
+# End time: 15:15:41 on Sep 25,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components {C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/reg_file.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 15:15:41 on Sep 25,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components" C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/reg_file.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 15:15:41 on Sep 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components {C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/mux4.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 15:15:41 on Sep 25,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components" C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/mux4.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 15:15:41 on Sep 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components {C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/mux2.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 15:15:41 on Sep 25,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components" C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/mux2.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 15:15:41 on Sep 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components {C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/main_decoder.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 15:15:41 on Sep 25,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components" C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/main_decoder.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module main_decoder
+# 
+# Top level modules:
+# 	main_decoder
+# End time: 15:15:41 on Sep 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components {C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/imm_extend.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 15:15:41 on Sep 25,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components" C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/imm_extend.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module imm_extend
+# 
+# Top level modules:
+# 	imm_extend
+# End time: 15:15:41 on Sep 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components {C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/datapath.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 15:15:42 on Sep 25,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components" C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/datapath.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 15:15:42 on Sep 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components {C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/controller.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 15:15:42 on Sep 25,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components" C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/controller.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 15:15:42 on Sep 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components {C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/alu_decoder.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 15:15:42 on Sep 25,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components" C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/alu_decoder.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module alu_decoder
+# 
+# Top level modules:
+# 	alu_decoder
+# End time: 15:15:42 on Sep 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components {C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/alu.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 15:15:42 on Sep 25,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components" C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/alu.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 15:15:42 on Sep 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components {C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/adder.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 15:15:42 on Sep 25,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components" C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/components/adder.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 15:15:42 on Sep 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code {C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/instr_mem.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 15:15:42 on Sep 25,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code" C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/code/instr_mem.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module instr_mem
+# 
+# Top level modules:
+# 	instr_mem
+# End time: 15:15:43 on Sep 25,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog  -work work +incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/.test {C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/.test/tb_1b.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 15:15:43 on Sep 25,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/.test" C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/.test/tb_1b.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module tb_1b
+# 
+# Top level modules:
+# 	tb_1b
+# End time: 15:15:43 on Sep 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_1b
+# ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_1b 
+# Start time: 15:15:44 on Sep 25,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-220) 'modelsim.ini' is used as the ini file.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.tb_1b(fast)
+# Loading work.t1_riscv_cpu(fast)
+# Loading work.riscv_cpu(fast)
+# Loading work.controller(fast)
+# Loading work.main_decoder(fast)
+# Loading work.alu_decoder(fast)
+# Loading work.datapath(fast)
+# Loading work.reset_ff(fast)
+# Loading work.adder(fast)
+# Loading work.mux2(fast)
+# Loading work.reg_file(fast)
+# Loading work.imm_extend(fast)
+# Loading work.alu(fast)
+# Loading work.mux4(fast)
+# Loading work.instr_mem(fast)
+# Loading work.data_mem(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# 1. addi implementation is correct 
+# 2. andi implementation is correct 
+# 3. ori implementation is correct 
+# 4. slti implementation is correct 
+# 5. add implementation is correct 
+# 6. sub implementation is correct 
+# 7. slt implementation is correct 
+# 8. or implementation is correct 
+# 9. and implementation is correct 
+# 10. sw implementation is correct
+# 11. lw implementation is correct
+# 12. beq is executing
+# 12. beq is executing
+# 12. beq implementation is correct 
+# 13. lui implementation is correct 
+# 14. auipc implementation is correct 
+# 15. jalr implementation is correct 
+# Faulty Instructions =>           0
+# No errors encountered, congratulations!
+# ** Note: $stop    : C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/.test/tb_1b.v(63)
+#    Time: 265 ns  Iteration: 1  Instance: /tb_1b
+# Break in Task report_result at C:/Users/KLKis/eYRC_26-27_Logic-Quest/Task_1/Task_1B/t1_riscv_cpu/.test/tb_1b.v line 63
+# End time: 15:16:04 on Sep 25,2026, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 1
